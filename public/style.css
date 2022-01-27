@@ -21,4 +21,17 @@ a {
   display: inline-block;
 }
 
+/* header */
 
+header {
+  background: #F55A5A;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header p {
+  color: #fff;
+  font-size: 14px;
+}

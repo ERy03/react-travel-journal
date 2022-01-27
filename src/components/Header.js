@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <header>
+      <p><span><i className="fas fa-globe-americas"></i></span> my travel journal.</p>
+    </header>
   );
 }
