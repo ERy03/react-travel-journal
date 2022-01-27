@@ -1,5 +1,6 @@
 import React from "react";
 import destinationsData from "./data";
+import Header from "./components/Header";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   // });
   return (
     <div>
-      <h1>Hello World</h1>
+      <Header />
     </div>
   );
 }
