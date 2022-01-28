@@ -57,6 +57,12 @@ header p {
   border-radius: 5px;
 }
 
+.card-location {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
 .location-text {
   font-size: 11px;
   letter-spacing: 0.17em;
@@ -68,4 +74,10 @@ header p {
 
 .card:last-child {
   border-bottom: hotpink solid 0.5px;
+}
+
+.map-text-gray a{
+  color: #918E9B;
+  font-size: 11px;
+  text-decoration-line: underline;
 }
