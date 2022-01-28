@@ -21,6 +21,10 @@ a {
   display: inline-block;
 }
 
+.red {
+  color: #F55A5A;
+}
+
 /* header */
 
 header {
@@ -38,4 +42,30 @@ header p {
 
 /* card */
 
+.card {
+  display: flex;
+  width: 471px;
+  height: 168px;
+  align-items: center;
+}
 
+.card img {
+  width: 126px;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 19px;
+  border-radius: 5px;
+}
+
+.location-text {
+  font-size: 11px;
+  letter-spacing: 0.17em;
+}
+
+.card-container hr {
+  border: #F55A5A solid 0.5px;
+}
+
+.card:last-child {
+  border-bottom: hotpink solid 0.5px;
+}

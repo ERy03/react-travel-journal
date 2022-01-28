@@ -16,7 +16,9 @@ function App() {
   return (
     <div>
       <Header />
-      {destinationElements}
+      <div className="card-container">
+        {destinationElements}
+      </div>
     </div>
   );
 }
