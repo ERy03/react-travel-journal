@@ -10,8 +10,8 @@ export default function Card(props) {
           <span className="map-text-gray"><a href={props.item.googleMapsUrl} target="_blank" rel="noopener noreferrer">View on Google Maps</a></span>
         </div>
         <h3 className="card-title">{props.item.title}</h3>
-        <p>{props.item.startDate} - {props.item.endDate}</p>
-        <p>{props.item.description}</p>
+        <p className="card-date">{props.item.startDate} - {props.item.endDate}</p>
+        <p className="card-description">{props.item.description}</p>
       </div>
     </div>
   );
