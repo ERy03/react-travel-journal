@@ -5,7 +5,7 @@
 body {
   background-color: rgb(250,250,250);
   color: rgb(40,40,40);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body, h1, h2, h3, p {
@@ -69,7 +69,6 @@ header p {
 }
 
 .location-text {
-  font-size: 11px;
   letter-spacing: 0.17em;
 }
 
@@ -83,6 +82,5 @@ header p {
 
 .map-text-gray a{
   color: #918E9B;
-  font-size: 11px;
   text-decoration-line: underline;
 }
