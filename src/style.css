@@ -108,3 +108,35 @@ header p {
 .card-container {
   padding: 18px 0;
 }
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 360px;
+    font-size: 8.9px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 80px;
+  }
+  header p {
+    font-size: 16px;
+  }
+  .header-globe{
+    font-size : 30px;
+  }
+  .card {
+    width: 671px;
+    font-size: 18.24px;
+    height: 268px;
+  }
+  .card-description{
+    line-height: 20px;
+  }
+}
